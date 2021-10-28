@@ -1,0 +1,9 @@
+﻿<Application x:Class="Dyachenko3ISP11_12.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Dyachenko3ISP11_12"
+             StartupUri="Windows/AuthWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

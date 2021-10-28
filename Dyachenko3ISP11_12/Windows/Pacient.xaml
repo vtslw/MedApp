@@ -1,0 +1,19 @@
+﻿<Window x:Class="Dyachenko3ISP11_12.Windows.Pacient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dyachenko3ISP11_12.Windows"
+        mc:Ignorable="d"
+        Title="Pacient" Height="450" Width="800">
+    <Grid Background="#FFE5E5E5">
+        <TextBlock TextDecorations="Underline" Text="Авторизация" Margin="19,51,589.333,326.667" FontSize="30" Foreground="#FF115159" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Text="Шаг 1" Margin="19,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Foreground="#FF115159" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Text="Введите номер полиса ОМС:" Margin="131,159,0,215.667" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="40" Foreground="#FF061C1F" FontFamily="Arial"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="185,233,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="350" Background="#FFA2C7CC" FontSize="38"/>
+        <Image Source ="D:\Users\imivi\source\repos\Dyachenko3ISP11_12\Dyachenko3ISP11_12\Resources\free-icon-right-arrow-109617.png " HorizontalAlignment="Left" Height="35" Margin="550,239,0,0" VerticalAlignment="Top" Width="35"/>
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="15,350,0,0" VerticalAlignment="Top" Width="55" Height="55" Click="Button_Click" RenderTransformOrigin="0.561,0.789" BorderBrush="{x:Null}" Background="{x:Null}" >
+            <Image Source="D:\Users\imivi\source\repos\Dyachenko3ISP11_12\Dyachenko3ISP11_12\Resources\premium-icon-working-at-home-2991818.png" RenderTransformOrigin="0.507,0.513" Height="50" Width="50"/>
+        </Button>
+    </Grid>
+</Window>
